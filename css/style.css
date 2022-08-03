@@ -16,7 +16,7 @@
     min-height: 50vh;
 }
 
-.header h1{
+.header h1 {
     margin: 0;
     position: absolute;
     top: 10%;
@@ -39,6 +39,41 @@
     color: #ffffff;
 }
 
-.works{
+body {
+    font-family: 'Kaisei Opti', serif;
+}
+
+.works {
     width: 100%;
+    background-color: #dfdfdf;
+}
+
+.title {
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.work_img {
+    text-align: center;
+}
+
+.work_img img{
+    margin: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .work_img {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .gnav ul {
+        flex-wrap: wrap;
+    }
 }
