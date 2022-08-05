@@ -46,7 +46,8 @@ body {
 .works {
     width: 100%;
     background-color: #dfdfdf;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 120px;
 }
 
 .title {
@@ -59,6 +60,8 @@ body {
 }
 
 .work_img {
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
 }
 
@@ -66,9 +69,47 @@ body {
     margin: 10px;
 }
 
+.profile{
+    width: 920px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.profile img{
+    margin-right: 50px;
+}
+
+.prodile_img{
+    padding-top: 30px;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.totop {
+    position: fixed;
+    bottom: 10px;
+    right: 10%;
+}
+
+.totop a {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
+}   
+
+/* 下層ページ お問い合わせ*/
+.contact {
+    text-align: center;
+}
 
 @media screen and (max-width: 768px) {
-    .work_img {
+    .work_img,
+    .prodile_img {
         flex-wrap: wrap;
     }
 }
