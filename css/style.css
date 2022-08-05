@@ -88,8 +88,8 @@ body {
 
 .totop {
     position: fixed;
-    bottom: 10px;
-    right: 10%;
+    bottom: 50px;
+    right: 5%;
 }
 
 .totop a {
@@ -101,6 +101,16 @@ body {
     font-size: 14px;
     border-radius: 5px;
 }   
+
+.footer {
+    background: #000000;
+    color: #fff;
+    padding: 10px;
+}
+
+.copy {
+    text-align: center;
+}
 
 /* 下層ページ お問い合わせ*/
 .contact {
