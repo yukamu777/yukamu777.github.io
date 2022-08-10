@@ -1,6 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;700&family=Nunito:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@800&display=swap');
 
 *,
 *::before,
@@ -24,7 +24,7 @@
     width: 100%;
     text-align: center;
     font-size: 8vw;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Assistant', sans-serif;
 }
 
 .gnav ul {
@@ -52,12 +52,12 @@ body {
 }
 
 .title {
-    font-size: 50px;
+    font-size: 70px;
     margin-top: 30px;
     margin-bottom: 50px;
     padding-top: 20px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Assistant', sans-serif;
 }
 
 .work_img {
@@ -72,7 +72,7 @@ body {
     height: 200px;
 }
 
-.work_img img:hover{
+.work_img img:hover {
     opacity: 0.6;
     transition-duration: 0.3s;
 }
@@ -81,7 +81,7 @@ body {
     width: 920px;
     max-width: 90%;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 70px;
     padding-bottom: 70px;
 }
 
@@ -126,12 +126,12 @@ body {
 /* 下層ページ 共通*/
 
 .gnav_mini,
-.header_mini{
+.header_mini {
     position: relative;
     background-color: #000000;
     color: #ffffff;
     width: 100%;
-    min-height: 20vh;
+    min-height: 15vh;
 }
 
 .header_mini h1 {
@@ -140,10 +140,10 @@ body {
     width: 100%;
     text-align: center;
     font-size: 5vw;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Assistant', sans-serif;
 }
 
-.gnav_mini ul{
+.gnav_mini ul {
     font-family: 'Kaisei Opti', serif;
     display: flex;
     gap: 0 20px;
@@ -156,11 +156,27 @@ body {
     color: #ffffff;
 }
 
-.career{
-    padding-bottom: 50px;
+.career {
+    padding-bottom: 120px;
     width: 920px;
     max-width: 90%;
     margin: 0 auto;
+}
+
+.totop_mini {
+    position: fixed;
+    bottom: 100px;
+    right: 5%;
+}
+
+.totop_mini a {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 5px;
 }
 
 /* 下層ページ お問い合わせ*/
